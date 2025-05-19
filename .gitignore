@@ -1,0 +1,50 @@
+# Fichiers objets et exécutables
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+
+# Exécutables spécifiques du projet
+/segmentation
+/tests/tests_fonctions
+
+# Dossiers de résultats/tests
+/tests/results/
+/images/images_segmentees/
+/images/images_segmentees/
+/images/images_segmentees/*
+
+# Fichiers générés par make
+*.d
+*.dep
+
+# Fichiers temporaires et de sauvegarde
+*~
+*.swp
+*.tmp
+*.bak
+.DS_Store
+
+# Fichiers générés par LaTeX
+*.aux
+*.log
+*.toc
+*.out
+*.pdf
+*.bbl
+*.blg
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Doxygen
+/html/
+/latex/
+
+# Fichiers de configuration d'IDE
+.vscode/
+.idea/
